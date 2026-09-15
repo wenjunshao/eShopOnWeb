@@ -6,10 +6,10 @@ on: [push, workflow_dispatch]
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: az2006-rg
-  LOCATION: westus2
+  LOCATION: eastus
   TEMPLATE-FILE: infra/webapp.bicep
-  SUBSCRIPTION-ID: d470c937-42bc-4a9c-9831-116799e343d9
-  WEBAPP-NAME: az2006app27161
+  SUBSCRIPTION-ID: 766c3f5b-fa5c-4a9c-8265-5f5247dcb913
+  WEBAPP-NAME: az2006app35757
 
 jobs:
   #Build, test and publish .net web project in repository
